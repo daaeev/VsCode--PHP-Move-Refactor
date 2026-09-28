@@ -1,7 +1,9 @@
 {
   "name": "php-move-refactor",
+  "displayName": "PHP Move Refactor",
   "description": "Smart Move and Rename refactoring for PHP",
   "author": "Davyd Pyrog <DavidPirogDeveloper@gmail.com>",
+  "publisher": "davyd-pyrog",
   "version": "1.0.0",
   "icon": "icon.png",
   "keywords": [
