@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="100%" stop-color="#11111b"/>
+    </linearGradient>
+    <linearGradient id="php" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#777bb4"/>
+      <stop offset="100%" stop-color="#4f5d95"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+
+  <!-- Refactoring Loop Arrows -->
+  <path d="M 30,34 A 48,48 0 0,1 110,48" fill="none" stroke="url(#arrow)" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="112,50 102,38 116,36" fill="#38bdf8"/>
+
+  <path d="M 98,94 A 48,48 0 0,1 18,80" fill="none" stroke="url(#arrow)" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="16,78 26,90 12,92" fill="#818cf8"/>
+
+  <!-- PHP Badge -->
+  <ellipse cx="64" cy="64" rx="42" ry="22" fill="url(#php)" stroke="#8892be" stroke-width="2"/>
+  <text x="64" y="71" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" letter-spacing="1">PHP</text>
+</svg>

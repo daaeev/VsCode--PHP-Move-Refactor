@@ -1,0 +1,42 @@
+{
+  "name": "php-move-refactor",
+  "description": "Smart Move and Rename refactoring for PHP",
+  "author": "Davyd Pyrog <DavidPirogDeveloper@gmail.com>",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "keywords": [
+    "php",
+    "refactor",
+    "psr-4",
+    "namespace",
+    "intelephense"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "workspaceContains:composer.json",
+    "workspaceContains:**/*.php",
+    "onLanguage:php"
+  ],
+  "extensionDependencies": [
+    "bmewburn.vscode-intelephense-client"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "php-parser": "^3.1.5"
+  }
+}
